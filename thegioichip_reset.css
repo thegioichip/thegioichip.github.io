@@ -1,0 +1,344 @@
+
+html{
+	font-family:Arial, Helvetica, sans-serif;font-size:14px;
+	
+
+	}
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo,
+tt,
+var {background:transparent;border:0 none;margin:0;padding:0;border:0;outline:0;vertical-align:top}
+
+a{
+	text-decoration:none;
+	color:#000
+	}
+blockquote, q {quotes:none}
+
+img {
+	vertical-align:top;
+}
+body {
+	background: #fff !important;
+}
+embed {vertical-align:top}
+.clr_fix{
+	clear:both
+	}
+.autowh1007{
+	width:1007px; height:auto; margin:auto;
+	}
+.tcw{
+	color:#FFF
+	}
+.fullimg img{
+	width: 100%;
+	height: auto;
+}
+/***HITI STANDARD - BACKGROUND - DISPLAY - POSITION***/
+@font-face {
+    font-family: 'UTMCafetaRegular';
+  src: url('../font/utm_cafeta-webfont.eot');
+  src: url('../font/utm_cafeta-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/utm_cafeta-webfont.woff') format('woff'),
+       url('../font/utm_cafeta-webfont.ttf') format('truetype'),
+       url('../font/utm_cafeta-webfont.svg#UTMCafetaRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+  src: url('../font/opensans-regular-webfont.eot');
+  src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/opensans-regular-webfont.woff') format('woff'),
+       url('../font/opensans-regular-webfont.ttf') format('truetype'),
+       url('../font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(https://themes.googleusercontent.com/static/fonts/robotocondensed/v8/b9QBgL0iMZfDSpmcXcE8nFgFMY7EK8ynABYD_ZHMS7s.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(https://themes.googleusercontent.com/static/fonts/robotocondensed/v8/Zd2E9abXLFGSr9G3YK2MsNIjcMYHK_OhdqQKvz8_Eqo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://themes.googleusercontent.com/static/fonts/robotocondensed/v8/b9QBgL0iMZfDSpmcXcE8nMSqxGqx1BqHsIjxNL4q2HQ.woff) format('woff');
+}
+.fontcafe {
+    font-family: 'Roboto Condensed';
+}
+/* END: @fontface */
+/***********BACKGROUND*************/
+
+.bg_xanh_4f6b76_tran{
+	background-image:url(../images/bgk/bg_xanh_4f6b76_tran.png);
+	background-repeat:repeat
+	}
+.bg_white{
+	background-color:#FFF
+	}
+.bg_white_tran{
+	background-image:url(../images/bgk/bg_white_tran.png);
+	background-repeat:repeat
+	}
+.bg_black{
+	background-color:#000
+	}
+.bg_den_tran{
+	background-image:url(../images/bgk/bg_den_tran.png);
+	background-repeat:repeat
+	}
+.bg_blue_dam_tran{
+	background-image:url(../images/bgk/bg_blue_dam_tran.png);
+	background-repeat:repeat
+	}
+.bg_camnhat{
+	background-color:#FDFAD0;
+	}
+.bg_camdam{
+	background-color:#fef9b6;
+	}
+.fulloverui{
+	background-image:url(../images/bgk/bg_blue_dam_tran.png);
+	background-repeat:repeat;
+	width: 100%;
+	height: 100%;
+	min-height: 200px;
+	z-index: 9 !important;
+	position: fixed;
+	top: 0px;
+	display: none;
+	left: 0px;
+}
+/***form***/
+
+
+input{
+outline:none
+}
+
+/***********BG DISPLAY******************/
+.display_none{
+	display:none
+	}
+.display_block{
+	display:block
+	}
+.display_list-item{
+	display:list-item
+	}
+.display_compact{
+	display:compact
+	}
+
+/***********POSITION*************/
+.pos_re{
+	position:relative;
+	}
+.pos_ab{
+	position:absolute
+	}
+.pos_fix{
+	position:fixed
+	}
+/*Height - width - margin - cursor*/
+.h100pc{
+	height:100%;
+	}
+.hat{
+	height:auto
+	}
+.w100pc{
+	width:100%;
+	}
+.w1007{
+	width:1007px;
+	}
+.mar_at{
+	margin:auto
+	}
+.cursor_point{
+	cursor:pointer
+	}
+.fl{
+	float:left;
+	}
+.fr{
+	float:right
+	}
+.tbold{
+	font-weight:bold
+	}
+.right0{
+	right:0px
+	}
+.ta_r{text-align:right}
+.ta_l{text-align:left}
+.ta_c{text-align:center}
+.ttra_lower{
+	text-transform:lowercase
+	}
+//*******Logo hiti******/
+.pdt10{
+	padding-top:10px
+	}
+.thiet_ke_web{
+width:auto; height:auto; position:relative; float:right;
+}
+.thiet_ke_web_chuyen_nghiep{
+float:left; text-align:right;width:auto; line-height:10px;letter-spacing:3px; font-size:8px;color:#fff; margin-top:5px;padding-right:2px
+}
+.thiet_ke_web_chuyen_nghiep a{
+color:#fff
+}
+.thiet_ke_web_chuyen_nghiep p{
+	width:60px;
+	float:left;
+	line-height:10px
+	}
+.thiet_ke_web a{
+text-decoration:none;
+color:#fff;
+border:none;
+}
+.texthiti{
+	font-size:4px; letter-spacing:1px;
+	line-height:10px !important;color: #fff
+	}
+.texthiti a{
+	color: #fff
+}
+.thiet_ke_web a:hover{
+color:#FFF;
+border:none
+}	
+/*******Logo hiti******/
+/***HITI STANDARD***/
+
+/**********BG Z-INDEX*********/	
+.zindex_0{
+	z-index:0
+	}
+
+.zindex_1{
+	z-index:1
+	}
+.zindex_2{
+	z-index:2
+	}
+.zindex_3{
+	z-index:3
+	}
+.zindex_4{
+	z-index:4
+	}
+.zindex_5{
+	z-index:5
+	}
+.zindex_6{
+	z-index:6
+	}
+.zindex_7{
+	z-index:7
+	}
+.zindex_8{
+	z-index:8
+	}
+.zindex_9{
+	z-index:9
+	}
+.zindex_10{
+	z-index:10
+	}
+.zindex_11{
+	z-index:11
+	}
+.zindex_12{	z-index:12	}
+.zindex_13{	z-index:13	}
+.zindex_14{	z-index:14	}
+.zindex_15{	z-index:15	}
+.zindex_16{	z-index:16	}
+.zindex_17{	z-index:17	}
+.zindex_18{	z-index:18	}
+.zindex_19{	z-index:19	}
+.zindex_20{	z-index:20	}
+.zindex_21{	z-index:21	}
+.zindex_22{	z-index:22	}
+.zindex_23{	z-index:23	}
+.zindex_24{	z-index:24	}
+.zindex_25{	z-index:25	}
+.zindex_26{	z-index:26	}
+.zindex_27{	z-index:27	}
+
+/**********ED Z-INDEX*********/	
+/************thong dung***************/
+.loadbutton{
+	width:100%;
+	height:100%;
+	background-image:url(../images/bgk/bg_white_tran.png);
+	background-repeat:repeat;
+	position:absolute
+	}
+/************thong dung**************/
+
+/*icon*/
+@import url("glyphicons.css");                                          /* Glyphi-cons Styles */
+@import url("socialicons.css");                                         /* Sociali-cons Styles */
+@import url("filetypeicons.css");                                       /* Filetype-cons Styles */
+
+.icon12.glyphicons {
+    width: 12px;
+    height: 12px;
+}
+
+.icon12.glyphicons:before {
+    font-size: 12px !important;
+}
+
+
+.icon.glyphicons {
+    width: 16px;
+    height: 16px;
+}
+
+.icon.glyphicons:before {
+    font-size: 16px !important;
+}
+
+.icon32.glyphicons {
+    width: 32px;
+    height: 32px;
+}
+
+.icon32.glyphicons:before {
+    font-size: 32px !important;
+}
+
+.icon.glyphicons,
+.icon12.glyphicons,
+.icon32.glyphicons {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/*icon*/
+
+.fulblur{
+	
+}
+.fulbluradd{
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1px);
+}

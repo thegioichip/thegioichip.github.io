@@ -1,0 +1,270 @@
+.ajax-file-upload-statusbar {
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    height: 45px;
+    top: 0;
+    right: 0;
+}
+
+.ajax-file-upload-statusbar .submitBtn {
+	float: right;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+
+.ajax-file-upload-filename {
+    width: 100%;
+    height: auto;
+    margin: 4px 5px 5px 5px;
+    color: #807579;
+    display: none;
+}
+
+.ajax-file-upload-error {
+	float: right;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.ajax-file-upload-progress {
+    margin: 0 10px 5px 10px;
+    position: relative;
+    width: 235px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    height: 23px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 40px;
+}
+
+.ajax-file-upload-bar {
+    background-color: #0ba1b5;
+    width: 0;
+    height: 23px;
+}
+
+.ajax-file-upload-percent {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 48%
+}
+
+.ajax-file-upload {
+    cursor: pointer;
+    line-height: 20px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 10px 6px 10px;
+    color: #fff;
+    background: #00502f;
+    border: 0;
+}
+
+.ajax-file-upload:hover {
+    background: #00502f;
+}
+
+.ajax-file-upload i {
+    margin-top: -2px;
+}
+
+.ajax-upload-dragdrop {
+    border: 1px dotted #a5a5c7;
+    color: #333;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 0 0 10px
+}
+
+#eventsmessage {
+	line-height: 2em;
+}
+
+#startUpload {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    display: none;
+}
+
+.ajax-file-upload-statusbar {
+    width: 100%;
+}
+
+.ajax-file-upload-statusbar .submitBtn {
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    display: none !important;
+}
+
+.ajax-file-upload-filename {
+    width: 100%;
+    height: auto;
+    margin: 4px 5px 5px 5px;
+    color: #807579;
+    display: none;
+}
+
+.ajax-file-upload-error {
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.ajax-file-upload-progress {
+    margin: 10px 0 5px 10px;
+    width: 85px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 11px;
+    right: 5px;
+    border-radius: 15px;
+}
+
+.ajax-file-upload-bar {
+    background-color: #0ba1b5;
+    width: 0;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.ajax-file-upload-percent {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 48%
+}
+
+.ajax-file-upload {
+    display: inline-block;
+    line-height: 28px;
+    height: 28px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 0 !important;
+    margin-right: 10px;
+    cursor: default;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #FF6600;
+}
+
+.ajax-file-upload .icon {
+    display: none;
+}
+
+.ajax-file-upload i {
+    margin-top: -2px;
+}
+
+.ajax-upload-dragdrop {
+    border: 1px transparent;
+    color: #333;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 0 7px 0;
+}
+
+#eventsmessage {
+    line-height: 2em;
+}
+
+#startUpload {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    display: none;
+}
+
+.ajax-upload-dragdrop{
+    border: 1px dotted #fff
+}
+.ajax-upload-dragdrop span{
+    line-height: 30px
+}
+#doc-list {
+    text-align: center;
+}
+.itupanh{
+    height: auto;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    float: none;
+    display: inline-block;
+
+}
+.itupanh img{
+    width: 48px;
+    height: 48px;
+}
+.itupanh p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.icondel{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-image: url(../images/grp_img.png);
+    background-position: -36px -141px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+.errorupload{
+    line-height: 30px;
+}
+
+#frmBaogia .itupanh{
+    width: 180px;
+    margin: 0;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#frmBaogia .icondel{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url(../images/grp_img.png);
+    background-position: -39px -144px;
+    position: absolute;
+    right: -15px;
+    top: 2px;
+}
+
+#frmBaogia .itupanh img{
+    display: none;
+}
+
+#frmBaogia #doc-list {
+    text-align: left;
+}
+po·si·tion
+A place where someone or something is located or has been put.
+More »
